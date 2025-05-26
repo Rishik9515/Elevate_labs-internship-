@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
   margin: 2;
   padding: 0;
@@ -9,8 +9,6 @@ body {
   font-family: sans-serif;
   line-height: 2.75;
 }
-
-/* Header */
 header {
   display: flex;
   justify-content: space-between;
@@ -25,7 +23,6 @@ header {
   text-decoration: none;
 }
 
-/* Hero Section */
 .hero {
   padding: 6cqi 20px;
   text-align:var();
@@ -43,7 +40,6 @@ header {
   border-radius: 5px;
 }
 
-/* Footer */
 footer {
   text-align: center;
   padding: 20px;
@@ -62,8 +58,6 @@ footer {
   transform: scale(1.1);
 }
 
-
-/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
