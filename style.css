@@ -1,0 +1,81 @@
+/* General Reset */
+* {
+  margin: 2;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 2.75;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background: #040317;
+  color: rgb(9, 159, 234);
+}
+
+.nav-links a {
+  margin-left: 15px;
+  color: #6afefe;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  padding: 6cqi 20px;
+  text-align:var();
+  color: rgb(183, 255, 0);
+  background: url(https://subcontracteu.com/uploads/pages/535eee07e8fd4c9fabc377cd464c1d74.png)
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  background: #e1dfe5;
+  color: rgb(18, 16, 16);
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0b084e;
+  color: white;
+}
+
+.social-links img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  transition: transform 0.2s ease;
+}
+
+.social-links img:hover {
+  transform: scale(1.1);
+}
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links {
+    margin-top: 10px;
+  }
+
+  .nav-links a {
+    display: block;
+    margin: 10px 0;
+  }
+}
